@@ -136,6 +136,7 @@ div.line
 
 What is important to know when linking an external file (like a stylesheet) to an HTML file?
 ********************************************************************************************
+The order of files and the impact this possibly can have on the rendering engine. As bottom always win, you will always want to add the most specific stylesheet below the default one, so specific styles originally written in the default css can be over written. Also, it's important knowing the difference between absolute and relative links.
 
 What tricks did you use to help you with positioning? How hard was it to get the site as you wanted it?
 *******************************************************************************************************
