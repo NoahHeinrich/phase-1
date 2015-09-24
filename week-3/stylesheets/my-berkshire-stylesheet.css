@@ -123,3 +123,40 @@ div.line
   font-weight: bold;
   padding-bottom: 0.6em;
 }
+
+
+
+/**
+ _____  _____
+(__  / (__  /
+  / /    / /
+ (__ \  (__ \
+ ___) ) ___) )
+(____(_|____/
+
+What is important to know when linking an external file (like a stylesheet) to an HTML file?
+********************************************************************************************
+
+What tricks did you use to help you with positioning? How hard was it to get the site as you wanted it?
+*******************************************************************************************************
+We used @media in order to get screen widh and draw 2 or one column referring to screen size.
+Then we styled list items separatly.
+
+What CSS did you use to modify the element style (like size, color, etc.)
+*************************************************************************
+Atomic classes, with em properties for bot both text-size and line-height, then classic color names.
+
+Did you modify the HTML to include classes or ids? If so, which did you chose and why? If you didn't, how would you know which one to add to your HTML?
+*******************************************************************************************************************************************************
+Classes, check my blog post about the difference: http://gastongouron.github.io/blog/css-concepts.html
+
+When you compared your site to the actual code base, which do you think had cleaner code that followed best practices and why?
+******************************************************************************************************************************
+Our site is cleaner for the following reasons:
+1. we used a layout based on a responsive column system, and adapts to lower screens
+2. we dont use px properties in the css, making the site easier to maintain
+3. we use CSS and classes and the first site was using only pure HTML
+4. we use semantic minimal html, making our code easier to read
+5. we added interactivity in the footer with the <summary> html5 tag for the legal disclaimer
+6. any of oour style can be changed in two clicks and applied to the whole page from an external file.
+**/
