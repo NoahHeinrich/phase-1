@@ -1,0 +1,130 @@
+#news {
+  width:100%;
+  height: 230px;
+  overflow: hidden;
+}
+
+/** Display table when screen width = 800px **/
+@media (min-width: 50em) {
+    .row { width: 100%; display: table; table-layout: fixed; }
+    .col { display: table-cell; }
+}
+
+@media (max-width: 479px) {
+    .col {
+        width: 100% !important;
+    }
+}
+
+.col {
+    text-align:left;
+}
+
+html {
+  background-color: white;
+  color:navy;
+}
+
+summary {
+  padding-top: 0.6em;
+  text-decoration: underline;
+  color:red;
+  font-size: 1.5em;
+}
+
+small {
+  padding-bottom: 20px;
+}
+
+h1 {
+    font-size: 1.7em;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    display: inline-block;
+}
+
+h1::first-letter {
+    font-size: 200%;
+}
+
+h2 {
+     font-size: 1em;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    display: inline-block;
+}
+
+a{
+  color:purple;
+}
+
+a:visited {
+  color:red
+}
+
+li {
+    padding-top:2em;
+    padding-top:2em;
+}
+
+div.line
+{
+clear:both;
+width:100%;
+background-color:#d1d1d1;
+height:1px;
+margin-top:10px;
+margin-bottom:10px;
+}
+
+.header {
+  text-align: center;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+.alignCenter {
+    margin: auto;
+    padding: 10px;
+}
+
+.geico {
+  max-width: 600px;
+}
+
+.smallFont {
+    font-size:0.800em;
+    line-height:1.3em;
+}
+
+.listEntry {
+  text-decoration: underline;
+   font-size:1.5em;
+   line-height: 1.5em;
+}
+
+.listInfo {
+  text-decoration: none;
+   font-size:1.2em;
+   line-height: 1.2em;
+}
+
+.listMargins {
+  padding-left:8%;
+  padding-right:8%;
+}
+
+.contact {
+  font-size: 1.33em;
+}
+.adress {
+  font-size: 1.4em;
+   font-weight: bold;
+   padding-bottom: 0.6em;
+}
