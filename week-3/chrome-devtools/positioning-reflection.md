@@ -1,6 +1,31 @@
+# 3.4 Chrome Dev Tools
+
+#### 1. Change the colors:
 ![alt text](https://github.com/gastongouron/phase-0/blob/master/week-3/chrome-devtools/imgs/3.4-1changecolors.png "Change colors")
 
+#### 2. Column:
+![alt text](https://github.com/gastongouron/phase-0/blob/master/week-3/chrome-devtools/imgs/3.4-2stackdivs.png "Column")
 
+#### 3. Row:
+![alt text](https://github.com/gastongouron/phase-0/blob/master/week-3/chrome-devtools/imgs/3.4-3columns.png "Row")
+
+#### 4. Make Equidistant:
+![alt text](https://github.com/gastongouron/phase-0/blob/master/week-3/chrome-devtools/imgs/3.4-4spacing.png "Equidistant")
+
+#### 5. Squares:
+![alt text](https://github.com/gastongouron/phase-0/blob/master/week-3/chrome-devtools/imgs/3.4-5squares.png "Squares")
+
+#### 6. Footer:
+![alt text](https://github.com/gastongouron/phase-0/blob/master/week-3/chrome-devtools/imgs/3.4-6footer.png "Footer")
+
+#### 7. Header:
+![alt text](https://github.com/gastongouron/phase-0/blob/master/week-3/chrome-devtools/imgs/3.4-7fixedtop.png "Header")
+
+#### 8. Sidebar:
+![alt text](https://github.com/gastongouron/phase-0/blob/master/week-3/chrome-devtools/imgs/3.4-8sidebar.png "Sidebar")
+
+#### 9. Get creative:
+![alt text](https://github.com/gastongouron/phase-0/blob/master/week-3/chrome-devtools/imgs/3.4-9creativedesign.png "Creative")
 
 1. position:static
 The default positioning for all elements is position:static, which means the element is not positioned and occurs where it normally would in the document.
