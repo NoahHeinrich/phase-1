@@ -136,28 +136,29 @@ div.line
 
 What is important to know when linking an external file (like a stylesheet) to an HTML file?
 ********************************************************************************************
-The order of assets importation and the impact this possibly can have on the rendering engine of your browser. As bottom always win, you will always want to add the most specific stylesheet below the default one, so specific styles originally written in the default css can be over written. Also, it's important knowing the difference between absolute and relative links.
+Some things that one should be aware of when linking external files like (like stylesheets) is that you can use either absolute or relative links. It is also good practice to keep the links nested in the head tag (especially for stylesheets) so as not to force the browser to redraw the page.
 
 What tricks did you use to help you with positioning? How hard was it to get the site as you wanted it?
 *******************************************************************************************************
-We used @media in order to get screen widh and draw 2 or one column referring to screen size.
-Then we styled list items separatly.
+We used @media in order to get screen width and draw 2 or one column referring to screen size.
+Positioning was not overly difficult, the most challenging aspect was having the two columns of list items but it didn't take us long to find ways to get it to mimic the original site.
 
 What CSS did you use to modify the element style (like size, color, etc.)
 *************************************************************************
-Atomic classes, with em properties for bot both text-size and line-height, then classic color names.
+Atomic classes, with em properties for both text-size and line-height, then classic color names.
 
 Did you modify the HTML to include classes or ids? If so, which did you chose and why? If you didn't, how would you know which one to add to your HTML?
 *******************************************************************************************************************************************************
-Classes, check my blog post about the difference: http://gastongouron.github.io/blog/css-concepts.html
+We incorporated Classes into our HTML, which was especially useful for the list items as they are all styled similarly.
 
 When you compared your site to the actual code base, which do you think had cleaner code that followed best practices and why?
 ******************************************************************************************************************************
 Our site is cleaner for the following reasons:
-1. we used a layout based on a responsive column system, and adapts to lower screens
-2. we dont use px properties in the css, making the site easier to maintain
-3. we use CSS and classes and the first site was using only pure HTML
-4. we use semantic minimal html, making our code easier to read
-5. we added interactivity in the footer with the <summary> html5 tag for the legal disclaimer
-6. any of oour style can be changed in two clicks and applied to the whole page from an external file.
+1. We used a layout based on a responsive column system, and adapts to lower resolution screens
+2. We dont use px properties in the css, making the site easier to maintain
+3. One of the big differences is that the Berkshire website was using inline CSS to style its page. This is generally frowned upon but their website only has one page so it is not as big of a deal.
+4. The original site uses tables instead of divs for the layout of the list items which means there is a fair bit more code (which ulitmately creates potential for more errors - Divs are more easily maintained).
+5. We added interactivity in the footer with the <summary> html5 tag for the legal disclaimer
+6. Any of oour style can be changed in two clicks and applied to the whole page from an external file.
+
 **/
