@@ -1,6 +1,5 @@
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![alt text](https://github.com/gastongouron/phase-0/blob/master/week-3/chrome-devtools/imgs/3.4-1changecolors.png "Change colors")
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 
 
 1. position:static
