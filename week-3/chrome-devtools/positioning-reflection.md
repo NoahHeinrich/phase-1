@@ -35,21 +35,21 @@ Inspect element, change values, check results. If you are satisfied with what yo
 By directly styling the tag or defining a classes or an id in CSS then applying it to the element.
 
 #### What are the differences between Absolute, Fixed, Static, and Relative positioning? Which did you find easiest to use? Which was most difficult?
-**1. position:static**
+**1. `position:static;`**
 The default positioning for all elements is position:static, which means the element is not positioned and occurs where it normally would in the document. Normally you wouldn't specify this unless you needed to override a positioning that had been previously set.
 
-**2. position:relative**
+**2. `position:relative;` **
 If you specify position:relative, then you can use top or bottom, and left or right to move the element relative to where it would normally occur in the document.
 
-**3. position:absolute** a.k.a the most easy to use and the most difficult to maintain.
+**3. `position:absolute;` ** a.k.a the most easy to use and the most difficult to maintain.
 The element is removed from the document and placed exactly where you tell it to go.
 Let's move div-1a to the top right of the page:
 
-**4. position: fixed**
+**4. `position: fixed;` **
 The element is positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled. The top, right, bottom, and left properties are used to position the element.
 
 #### What are the differences between Margin, Border, and Padding?
-A margin is the space that surrounds an element. A border is the size of the border of the element. A padding is an inner margin of the element. They are very different. If we could compare HTML an elements to a real-life personal house, a margin would be the space surrounding to your house that belongs to you, the border would be the actual thickness of your walls, and padding would be.. Erm, padding is difficult to define, imagine your take all the furniture one meter away from every wall of your house, you will have a pading of one meter.
+A margin is the space that surrounds an element. A border is the size of the border of the element. A padding is an inner margin of the element. They are very different. If we could compare an HTML elements such as a div to a real-life personal house, a margin would be the space surrounding to your house that belongs to you, the border would be the actual thickness of your walls, and padding would be.. Erm, padding is more difficult to define, imagine your take all the furniture one meter away from every wall of your house, you will have a pading of one meter.
 
 #### What was your impression of this challenge overall? (love, hate, and why?)
-Loved it. Very interesting to use only devtools and having the constraint not to change the actual structure of the HTML file.Also I think it's a good challenge because it can be completed in plurial ways.
+Loved it. Very interesting to use only devtools and having the constraint not to change the actual structure of the HTML file.Also I think it's a good challenge because it can be completed in plurial ways and this is always interesting to discuss these with your pair.
