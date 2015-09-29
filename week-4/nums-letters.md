@@ -73,4 +73,4 @@ When you declare variables inside a function def, they are not related in any wa
 *3. D.R.Y. (an approach consisting in creating as much abstractional levels of code as possible in order not to repeat it twice)*
 
 #### How was this challenge? Did you get a good review of some of the basics?
-In my opinion it was an interesting challenge, reviewing the basics and starting to play around with objects was definitly useful! Can't wait to go further in my reading of the Learn to Program 2nd edition to learn more about the basics.
+Definitly helped me to get a good review of some of the basics. It's very cool to solve those exercices and, even if simple, they are an overview of the power of a programming language. I can't wait to moove on with other challenges and to go further in my reading of the Learn to Program 2nd edition to learn more about the basics. This challenge was great.
