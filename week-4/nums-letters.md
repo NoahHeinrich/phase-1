@@ -4,7 +4,7 @@
 `puts` returns nil and prints the output to the console with a new line. It is different from prints (which dont create a new line) and p which returns the evaluated code instead of nil.
 
 #### What is an integer?
-An integer is a number without a coma, eq. **1** or **-1** or **0** or **9999999**
+An integer is a number without decimals eq. **1** or **-1** or **0** or **9999999**
 
 #### What is a float?
 A float is a number with decimals, such as **1,1** or **-1,1** or **0,0** or **99999999,9**
@@ -12,6 +12,7 @@ A float is a number with decimals, such as **1,1** or **-1,1** or **0,0** or **9
 #### What is the difference between float and integer division?
 An integer division is returning an integer answer eq. **9/2 returns 4.**
 A float division will return a float answer like **9.0/2.0 returns 4.5.**
+
 *Note: To get the rest of integers divisions there is an other operation called modulo (%)*
 
 #### How would you explain the difference to someone who doesn't know anything about programming?
@@ -51,19 +52,25 @@ Even if addition, subtraction, and multiplication are quite the same regardless 
 #### What are strings? Why and when would you use them?
 A `'string'` is a group of letter. A string can contain punctuation symbols, letters, digits and even be empty.
 
-**Notes:**
-1. Whatever the nature of the elements contained by the string, ruby will interpret this object as a string.
-2. Dont use string on arythmetic operations (may be some exceptions) strings and nummbers doesnt mix good together.
-3. Use backslash if you string contains an apostrophe like this: \' in order to not let ruby interpret your apostrophe as the beginning/end of the string.
+*Notes:*
+
+*1. Whatever the nature of the elements contained by the string, ruby will interpret this object as a string.*
+
+*2. Dont use string on arythmetic operations (may be some exceptions) strings and nummbers doesnt mix good together.*
+
+*3. Use backslash if you string contains an apostrophe like this: \' in order to not let ruby interpret your apostrophe as the beginning/end of the string.*
 
 #### What are local variables? Why and when would you use them?
 A local variable is a storage associated to a symbolic name *(a.k.a identifier)* that contains informations *(a.k.a value)* that can be defined and re-distribued into the code in order to prevent for repeating yourself at a local scope. The interest of (local) variables is that once compiled they are replaced with a piece of data that can be changed during the execution of the program. More than beeing elegant, local variables are is making the code more useful and allows it to work as a chunk (with an input and an output) that doesn't depends on fixed data.
 When you declare variables inside a function def, they are not related in any way to other variables with the same names outside the function. Variable names are local to the function. This is called the scope of the variable.
 
-**Notes:**
-1. Distinguish local variables working at a local scope from global variables that works at a global-scope.
-2. Use descriptives names when defining variables otherwise it can be a real mess when having a lot of them.
-3. D.R.Y. (an approach consisting in creating as much abstractional levels of code as possible in order not to repeat it twice)
+*Notes:*
+
+*1. Distinguish local variables working at a local scope from global variables that works at a global-scope.*
+
+*2. Use descriptives names when defining variables otherwise it can be a real mess when having a lot of them.*
+
+*3. D.R.Y. (an approach consisting in creating as much abstractional levels of code as possible in order not to repeat it twice)*
 
 #### How was this challenge? Did you get a good review of some of the basics?
 In my opinion it was an interesting challenge, reviewing the basics and starting to play around with objects was definitly useful! Can't wait to go further in my reading of the Learn to Program 2nd edition to learn more about the basics.
