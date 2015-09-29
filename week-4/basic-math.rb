@@ -1,4 +1,4 @@
-# Solution Below
+# Solution Below 
 
 describe 'num1' do
 num1 = 10
