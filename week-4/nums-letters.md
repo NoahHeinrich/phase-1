@@ -47,7 +47,7 @@ A float is a number with decimals. I can be a positive or negative number or eve
 
 #### What is the difference between integer and float division?
 Referring to the type of numeric value you ask ruby to deal with, it won't handle some operations exactly the same.
-Even if addition, subtraction, and multiplication are quite the same regardless of your input is a float or an interger, division may behave differently. In fact, an integer division will provide an integer result, what may be sometimes usefull or sometimes unexpected. For those reasons, integers divisions must be considered with carefully.
+Even if addition, subtraction, and multiplication are quite the same regardless of your input is a float or an interger, division may behave differently. In fact, an integer division will provide an integer result, what may be sometimes usefull or sometimes unexpected. For those reasons, integers divisions must be considered with care.
 
 #### What are strings? Why and when would you use them?
 A `'string'` is a group of letter. A string can contain punctuation symbols, letters, digits and even be empty.
