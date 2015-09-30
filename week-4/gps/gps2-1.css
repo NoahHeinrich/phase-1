@@ -64,5 +64,5 @@ footer > a {
 }
 
 details summary::-webkit-details-marker {
-  color: grey;
+  color: teal;
 }
