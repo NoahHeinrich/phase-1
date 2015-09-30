@@ -38,14 +38,13 @@ By directly styling the tag or defining a classes or an id in CSS then applying 
 **1. `position:static;`**
 The default positioning for all elements is position:static, which means the element is not positioned and occurs where it normally would in the document. Normally you wouldn't specify this unless you needed to override a positioning that had been previously set.
 
-**2. `position:relative;` **
+**2. `position:relative;`**
 If you specify position:relative, then you can use top or bottom, and left or right to move the element relative to where it would normally occur in the document.
 
-**3. `position:absolute;` ** a.k.a the most easy to use and the most difficult to maintain.
+**3. `position:absolute;`** a.k.a the most easy to use and the most difficult to maintain.
 The element is removed from the document and placed exactly where you tell it to go.
-Let's move div-1a to the top right of the page:
 
-**4. `position: fixed;` **
+**4. `position: fixed;`**
 The element is positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled. The top, right, bottom, and left properties are used to position the element.
 
 #### What are the differences between Margin, Border, and Padding?
