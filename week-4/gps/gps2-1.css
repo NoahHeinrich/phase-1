@@ -3,6 +3,7 @@
 html {
   font: 18px/1.4 "Roboto", sans-serif;
   text-align:left;
+  colot:#FF6B6B;
 }
 
 body {
@@ -21,7 +22,12 @@ h1 {
 a{
   text-decoration: none;
   font-weight: bold;
-  color:grey;
+  color:#FF6B6B;
+}
+
+img {
+  display:block;
+  margin:auto;
 }
 
 .column-1 {
@@ -36,7 +42,7 @@ a{
   padding-right: 2em;
   display:table-cell;
   width:50%;
-  border-left:3px solid grey;
+  border-left:3px solid #FF6B6B;
 }
 
 header > p {
@@ -46,11 +52,11 @@ header > p {
 }
 
 header, footer {
-  background: -webkit-linear-gradient(90deg, #4CB8C4 10%, #3CD3AD 90%);
-  background:    -moz-linear-gradient(90deg, #4CB8C4 10%, #3CD3AD 90%);
-  background:     -ms-linear-gradient(90deg, #4CB8C4 10%, #3CD3AD 90%);
-  background:      -o-linear-gradient(90deg, #4CB8C4 10%, #3CD3AD 90%);
-  background:         linear-gradient(90deg, #4CB8C4 10%, #3CD3AD 90%);
+ background: -webkit-linear-gradient(90deg, #556270 10%, #FF6B6B 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #556270 10%, #FF6B6B 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #556270 10%, #FF6B6B 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #556270 10%, #FF6B6B 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #556270 10%, #FF6B6B 90%); /* W3C */
   color:white;
 }
 
@@ -64,5 +70,5 @@ footer > a {
 }
 
 details summary::-webkit-details-marker {
-  color: teal;
+  color: #FF6B6B;
 }
