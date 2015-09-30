@@ -18,7 +18,6 @@ bigger_better_number = (favourite_number.to_i + 1)
 # How do you define a local variable?
 # A local variable is a variable occuring inside a method and having effects only inside this method. Once inside the methos you define it by typing: variable_name = variable_value.
 
-
 # How do you define a method?
 # -> In order to define a method you want to use the keyword def followed by this structure: def method_name (method_arguments) end
 
