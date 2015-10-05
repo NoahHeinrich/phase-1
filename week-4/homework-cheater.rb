@@ -28,9 +28,9 @@ award_winning_essay_tokugawa = "The First Shogun
 
 Ieyasu Tokugawa was an important person in 1603. He did a lot. I want to learn more about him. His most important contribution to history is that he founded the Tokugawa period, a peaceful time that lasted over 200 years. Tokugawa's contribution is important."
 
-award_winning_essay_tesla = "The First Shogun
+award_winning_essay_tesla = "The mechanical engineer.
 
-Ieyasu Tokugawa was an important person in 1603. He did a lot. I want to learn more about him. His most important contribution to history is that he founded the Tokugawa period, a peaceful time that lasted over 200 years. Tokugawa's contribution is important."
+Nikola tesla is born in Serbian and was an important person in 1864. He did a lot. I want to learn more about him. His best known for his contributions to the design of the modern alternating current (AC) electricity supply system. tesla's contribution is important."
 
 award_winning_essay_austen = "The English novelist"
 
