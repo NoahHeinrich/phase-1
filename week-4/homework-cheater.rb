@@ -24,16 +24,16 @@ austen = [ "The English novelist", "Jane Austen", "England", "Litterature", 1775
 
 
 # Wondered output:
-award_winning_essay_tokugawa = "The First Shogun
+award_winning_essay_tokugawa = "The First Shogun"
+""
+"Ieyasu Tokugawa was an important person in 1603. He did a lot. I want to learn more about him. His most important contribution to history is that he founded the Tokugawa period, a peaceful time that lasted over 200 years. Tokugawa's contribution is important."
 
-Ieyasu Tokugawa was an important person in 1603. He did a lot. I want to learn more about him. His most important contribution to history is that he founded the Tokugawa period, a peaceful time that lasted over 200 years. Tokugawa's contribution is important."
-
-award_winning_essay_tesla = "The mechanical engineer.
-
-Nikola tesla is born in Serbian and was an important person in 1864. He did a lot. I want to learn more about him. His best known for his contributions to the design of the modern alternating current (AC) electricity supply system. tesla's contribution is important."
+award_winning_essay_tesla = "The mechanical engineer."
+""
+"Nikola tesla is born in Serbian and was an important person in 1864. He did a lot. I want to learn more about him. His best known for his contributions to the design of the modern alternating current (AC) electricity supply system. tesla's contribution is important."
 
 award_winning_essay_austen = "The English novelist"
-
+""
 "jane Austen was an important person in 1775. She did a lot. I want to learn more about her. Her most important contribution to history is that her works of romantic fiction, set among the landed gentry, earned her a place as one of the most widely read writers in English literature. Her realism, biting irony and social commentary as well as her acclaimed plots have gained her historical importance among scholars and critics. Austen's contribution is important."
 
 
