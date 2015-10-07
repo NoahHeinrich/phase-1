@@ -33,7 +33,7 @@ end
 # 2. increment destructivly (!) mapped integers by the value of thing_to_modify so source is changed
 
 def my_array_modification_method!(source, thing_to_modify)
-  source.map! { |i| i.is_a?(Integer)? (i + thing_to_modify) : i }
+  source.map! { |i| i.is_a?(Integer)? (i + thing_to_modify) :i }
 end
 
 # Pseudocode my_hash_modification_method!
@@ -68,17 +68,28 @@ end
 #
 
 
-# Person 4
+# Person 4 - Noah Heinrich
+#Pseudocode
+# Accepts array and letter
+# iterate through array
+# for each element, search for letter
+# if element contains letter, delete element
+
 def my_array_deletion_method!(source, thing_to_delete)
-  source.dup # This line is here to make sure all tests initially fail. Delete it when you begin coding.
+  source.delete_if{|word| word.to_s.include?(thing_to_delete)}
 end
 
+#Pseudocode
+#Accepts hash and key
+# iterate through hash
+# if key matches inputted key, delete key and value
+
 def my_hash_deletion_method!(source, thing_to_delete)
-  source.dup # This line is here to make sure all tests initially fail. Delete it when you begin coding.
+  source.delete_if{|pet, age| pet==thing_to_delete}
 end
 
 # Identify and describe the Ruby method(s) you implemented.
-#
+# I implemented the delete_if method. It iterates through an array or a hash, and will delete any element that matches a certain requirement. In the first case, it deleted any element that contained a given string. In the second, it deleted any hashes that matched the inputted key.
 #
 #
 
